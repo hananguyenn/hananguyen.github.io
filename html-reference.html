@@ -6,86 +6,283 @@
 <body>
 
 <h1>HTML Reference Page</h1>
-<p>A valid HTML page must begin with a document declaration < !DOCTYPE html > at the beginning of the page to start coding.</p>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+th {
+    text-align: left;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th> 
+    <th>End Tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><a href="#html">HTML</a></td>
+    <td>&lt;html&gt;</td>
+     <td>&lt;/html&gt;</td>
+    <td>&lt;html&gt; <i>head & body</i> &lt;/html&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#head">Head</a></td>
+    <td>&lt;head&gt;</td>
+    <td>&lt;/head&gt;</td>
+    <td>&lt;head&gt; <i>head elements</i> &lt;/head&gt;</td>
+  </tr>
+  <tr>
+    <td><a href="#titles">Title</a></td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;/title&gt;</td>
+    <td>&lt;title&gt; <i>Page Title</i> &lt;/title&gt;</td>
+  </tr>
+    <tr>
+    <td><a href="#body">Body</a></td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;/body&gt;</td>
+    <td>&lt;body&gt; <i>body elements</i> &lt;/body&gt;</td>
+  </tr>
+    <tr>
+    <td><a href="#headings">Headings</a></td>
+    <td>&lt;h1&gt;</td>
+    <td>&lt;/h1&gt;</td>
+    <td>&lt;h1&gt; <i>heading</i>&lt;/h1&gt;</td>
+  </tr>
+   <tr>
+   <td><a href="#parag">Paragraph</a></td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;/p&gt;</td>
+    <td>&lt;p&gt; <i>This is an example of a paragraph</i>&lt;/p&gt;</td></td>
+  </tr>
+   <tr>
+    <td><a href="#breaks">Breaks</a></td>
+    <td>&lt;br&gt;</td>
+    <td></td>
+    <td>&lt;br&gt;</td>
+  </tr>
+   <tr>
+    <td><a href="#lines">Lines</a></td>
+    <td>&lt;hr&gt;</td>
+    <td></td>
+    <td>&lt;hr&gt;</td>
+  </tr>
+   <tr>
+    <td><a href="#comments">Comments</a></td>
+    <td>&lt;!--</td>
+    <td>--&gt;</td>
+    <td>&lt;!-- <i>comment</i> --&gt;</td>
+  </tr>
+   <tr>
+    <td><a href="#links">Links</a></td>
+    <td>&lt;a&gt;</td>
+    <td>&lt;/a&gt;</td>
+    <td>&lt;a href="<i>url</i>"&gt;Link Text&lt;/a&gt;</td>
+  </tr>
+   <tr>
+    <td><a href="#images">Images</a></td>
+    <td>&lt;img&gt;</td>
+    <td></td>
+    <td>&lt;img src="<i>url</i>"&gt;</td>
+  </tr>
+   <tr>
+    <td><a href="#lists">Lists</a></td>
+    <td>&lt;ol&gt; &lt;ul&gt; &lt;li&gt;</td>
+        <td>&lt;/ol&gt; &lt;/ul&gt; &lt;/li&gt;</td>
+    <td></td>
+  </tr>
+     <td><a href="#tables">Tables</a></td>
+        <td>&lt;table&gt; &lt;tr&gt; &lt;td&gt; &lt;th&gt;</td>
+        <td>&lt;/table&gt; &lt;/tr&gt; &lt;/td&gt; &lt;/th&gt;</td>
+        <td></td>
+  </tr>
+     <td><a href="#blocks">Blocks</a></td>
+        <td>&lt;div&gt;</td>
+        <td>&lt;/div&gt;</td>
+        <td>&lt;div&gt; <i>block elements</i> &lt;/div&gt;</td>
+  </tr>
+</table>
+ 
+</body>
+</html>
+
 <br>
 <hr>
-<h2>Header</h2>
-<head>This is a header</head>
-<p>The tag < head > is a container for all the head elements (title, scripts, styles, meta information, and more)</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_head.asp">W3 Schools: Headers</a>
-<br>
-<hr>
-<h2>Titles</h2>
-<title>This is a title</title>
-<p>Titles are defined by the tag < title > and the < title > tag is required in all HTML documents and it defines the title of the document. The title displays a title for the page in search-engine results, provides a title for the page when it is added to favorites and defines a title in the browser toolbar.</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_title.asp">W3 Schools: Titles</a>
-<br>
-<hr>
-<h2>Body</h2>
-<body>This is a body</body>
-<p>The < body > tag defines the document's body.The element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_body.asp">W3 Schools: Body</a>
+    <h2 id="html">HTML Element</h2>
+    <h3>Description</h3>
+    <p>A valid HTML page must begin with a document declaration < !DOCTYPE html > at the beginning of the page to start coding.An HTML element usually consists of a start tag and end tag, with the content inserted in between:</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;tagname&gt;</p>
+    <p>content: elements releated to the body</p>
+    <p>end tag: &lt;/tagname&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;p&gt;My first paragraph.&lt;/p&gt;</p>
+    <h3>Display</h3>
+    <p>This is how an element looks in the browser</p>
+    <h3><a href="https://www.w3schools.com/html/html_elements.asp">W3 Schools: HTML Elements</a></h3>
 <br>
 <hr>
-<h2>Headings</h2>
-<h3>This is a heading</h3>
-<p>HTML headings are defined with the tag < h1 > to < h6 > tags, where < h1 > defines the most important heading and < h6 > defines the least important heading of a page.</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_hn.asp">W3 Schools: Headings</a>
-<br>
-<hr>
-<h2>Paragraphs</h2
-<p>This is a paragraph</p>
-<p>The HTML < p > element defines a paragraph.It is usually placed in the body of a document.</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_p.asp">W3 Schools: Paragraphs</a>
-<br>
-<hr>
-<h2>Breaks</h2>
-<p>The < br > tag inserts a single line break.The < br > tag is an empty tag which means that it has no end tag. These tabs are being used to separate these different sections.</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_br.asp">W3 Schools: Breaks</a>
+    <h2 id="head">Head Element</h2>
+     <h3>Description</h3>
+    <p>The tag < head > is a container for all the head elements (title, scripts, styles, meta information, and more)</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;head&gt;</p>
+    <p>content: The Header</p>
+    <p>end tag: &lt;/head&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;head&gt;<i>Header</i>&lt;/head&gt;</p>
+    <h3>Display</h3>
+    <head>This is the header</head>
+    <h3><a href="https://www.w3schools.com/tags/tag_head.asp">W3 Schools: Headers</a></h3>
 <br>
 <hr>
-<h2>Lines</h2>
-<p>The < hr > tag defines a thematic break in an HTML page (e.g. a shift of topic). The < hr > element is used to separate content (or define a change) in an HTML page. The li.nes separating these sections are an example of the use of < hr > tags</p>
-<br>
-<a href="https://www.w3schools.com/tags/tag_hr.asp">W3 Schools: Breaks</a>
-<br>
-<hr>
-<h2>Comments</h2>
-<p>Comment tags are used to insert comments in the HTML source code. Comment tags can be added to a HTML source by using the following syntax:< !-- Write your comments here -- ></p>
-<br>
-<a href="https://www.w3schools.com/html/html_comments.asp">W3 Schools: Comments</a>
-<br>
-<hr>
-<h2>Links</h2>
-<p>Links are found in nearly all web pages. Links allow users to click their way from page to page. HTML links are hyperlinks. You can click on a link and jump to another document. In HTML, links are defined with the < a > tag:< a href="url" >link text< /a >. This is an example of a link: <a href="https://www.fritolay.com/snacks/product-page/cheetos/cheetos-crunchy-flamin-hot-cheese-flavored-snacks">This is a link</a> </p>
-<br>
-<a href="https://www.w3schools.com/html/html_links.asp">W3 Schools: Links</a>
+  <h2 id="titles">Titles</h2>
+   <h3>Description</h3>
+    <p>The &lt;title&gt; tag is required in all HTML documents and it defines the title of the document. The title displays a title for the page in search-engine results, provides a title for the page when it is added to favorites and defines a title in the browser toolbar.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;title&gt;</p>
+    <p>content: The Title</p>
+    <p>end tag: &lt;/title&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;title&gt;<i>Title</i>&lt;/title&gt;</p>
+    <h3>Display</h3>
+    <title>This is the title</title>
+    <h3><a href="https://www.w3schools.com/tags/tag_title.asp">W3 Schools: Titles</a></h3>
 <br>
 <hr>
-<h2>Images</h2>
-<p>Images can improve the design and the apperance of a web page. In HTML, images are defined with the < img > tag. The < img > tag is empty, it contains attributes only, and does not have a closing tag. The src attribute specifies the URL (web address) of the image:< img src="url" >. This is an example of an image:<img src="https://www.fritolay.com/images/default-source/blue-bag-image/cheetos-crunchy-flamin-hot.png?sfvrsn=5651573a_2"width="200" height="300">
-</p>
-<br>
-<a href="https://www.w3schools.com/html/html_images.asp">W3 Schools: Images</a>
+   <h2 id="body">Body</h2>
+      <h3>Description</h3>
+    <p>The &lt;body&gt; tag defines the document's body.The element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;body&gt;</p>
+    <p>content: Body</p>
+    <p>end tag: &lt;/body&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;body&gt;<i>Insert Body</i>&lt;/body&gt;</p>
+    <h3>Display</h3>
+    <body>This is the body</body>
+    <h3><a href="https://www.w3schools.com/tags/tag_body.asp">W3 Schools: Body</a></h3>
 <br>
 <hr>
-<h2>Lists</h2>
-<p>An unordered list starts with the < ul > tag. The type attribute of the < ol > tag, defines the type of the list item marker: Each list item starts with the < li > tag. 
-<br> 
-This is the syntax of a list: 
-< ul/ol >
-  < li>Coffee</li >
-  < li>Tea</li >
-  < li>Milk</li >
-< /ul/ol >
+ <h2 id="headings">Headings</h2>
+    <h3>Description</h3>
+    <p>HTML headings are defined with the tag &lt;h1&gt; to &lt;h6&gt; tags, where &lt;h1&gt; defines the most important heading and &lt;h6&gt; defines the least important heading of a page.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;h1&gt;-&lt;h6&gt;</p>
+    <p>content: Heading</p>
+    <p>end tag: &lt;/h1&gt;-&lt;/h6&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;h1&gt;<i>Insert Header</i>&lt;/h1&gt;</p>
+    <h3>Display</h3>
+    <h4>This is a heading</h4>
+    <h3><a href="https://www.w3schools.com/tags/tag_hn.asp">W3 Schools: Headings</a></h3>
 <br>
-This is an example of an unordered list: <ul>
+<hr>
+   <h2 id="parag">Paragraph Element</h2>
+   <h3>Description</h3>
+    <p>The HTML &lt;p&gt; element defines a paragraph.It is usually placed in the body of a document.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;p&gt;</p>
+    <p>content: Put the paragraph here.</p>
+    <p>end tag: &lt;/p&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;p&gt;<i>This is the paragraph</i>&lt;/p&gt;</p>
+    <h3>Display</h3>
+    <p>This is the paragraph</p>
+    <h3><a href="https://www.w3schools.com/tags/tag_p.asp">W3 Schools: Paragraphs</a></h3>
+<br>
+<hr>
+ <h2 id="breaks">Breaks</h2>
+ <h3>Description</h3>
+    <p>The < br > tag inserts a single line break.The < br > tag is an empty tag which means that it has no end tag. These tabs are being used to separate these different sections.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;br&gt;</p>
+    <p>content: none</p>
+    <p>end tag: none needed</p>
+    <h3>Example</h3>
+    <p> &lt;br&gt;</p>
+    <h3>Display</h3>
+    <br>
+    <h3><a href="https://www.w3schools.com/tags/tag_br.asp">W3 Schools: Breaks</a></h3>
+<br>
+<hr>
+   <h2 id="lines">Lines</h2>
+   <h3>Description</h3>
+    <p>The  &lt;hr&gt; tag defines a thematic break in an HTML page (e.g. a shift of topic). The  &lt;hr&gt; element is used to separate content (or define a change) in an HTML page. The lines separating these sections are an example of the use of  &lt;hr&gt; tags</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;hr&gt;</p>
+    <p>content: none</p>
+    <p>end tag: none</p>
+    <h3>Example</h3>
+    <p> &lt;hr&gt;</p>
+    <h3>Display</h3>
+    <hr>
+    <h3><a href="https://www.w3schools.com/tags/tag_hr.asp">W3 Schools: Lines</a></h3>
+<br>
+<hr>
+
+  <h2 id="comments">Comments</h2>
+    <h3>Description</h3>
+    <p>Comment tags are used to insert comments in the HTML source code.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;!--</p>
+    <p>content: Write your comments here</p>
+    <p>end tag: --&gt;</p>
+    <h3>Example</h3>
+    <p> &lt;!-- Write your comments here --&gt;</p>
+    <h3>Display</h3>
+    <p>Comments are not displayed</p>
+    <h3><a href="https://www.w3schools.com/html/html_comments.asp">W3 Schools: Comments</a></h3>
+<br>
+<hr>
+ <h2 id="links">Links</h2>
+   <h3>Description</h3>
+    <p>Links are found in nearly all web pages. Links allow users to click their way from page to page. HTML links are hyperlinks. You can click on a link and jump to another document.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;a&gt;</p>
+    <p>content: url</p>
+    <p>end tag: &lt;/a&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;a&gt;https://www.w3schools.com/html/html_links.asp</>&lt;/a&gt;</p>
+    <h3>Display</h3>
+    <a href="https://www.fritolay.com/snacks/product-page/cheetos/cheetos-crunchy-flamin-hot-cheese-flavored-snacks">This is a link</a>
+    <h3><a href="https://www.w3schools.com/html/html_links.asp">W3 Schools: Links</a></h3>
+<br>
+<hr>
+ <h2 id="images">Images</h2>
+ <h3>Description</h3>
+    <p>Images can improve the design and the apperance of a web page. In HTML, images are defined with the  &lt;img&gt; tag. The  &lt;img&gt; tag is empty, it contains attributes only, and does not have a closing tag.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;img&gt;</p>
+    <p>content: image url</p>
+    <p>end tag: &lt;/img&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;img&gt;https://www.w3schools.com/html/html_links.asp</>&lt;/img&gt;</p>
+    <h3>Display</h3>
+      <br>
+    <img src="https://www.fritolay.com/images/default-source/blue-bag-image/cheetos-crunchy-flamin-hot.png?sfvrsn=5651573a_2"width="200" height="300">
+    <h3><a href="https://www.w3schools.com/html/html_images.asp">W3 Schools: Images</a></h3>
+<br>
+<hr>
+  <h2 id="lists">List Element</h2>
+  <h3>Description</h3>
+    <p>An unordered list starts with the &lt;ul&gt; tag. The type attribute of the &lt;ol&gt; tag, defines the type of the list item marker: Each list item starts with the &lt;li&gt; tag.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;ul&gt;&lt;ol&gt;&lt;li&gt;</p>
+    <p>content: list information</p>
+    <p>end tag: &lt;/ul&gt;&lt;/ol&gt;&lt;/li&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;ul&gt;</p>
+   <p>&lt;li&gt;list information &lt;/li&gt;</p>
+   <p>&lt;/ul&gt;</p>
+    <h3>Display</h3>
+   This is an example of an unordered list: <ul>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
@@ -95,41 +292,61 @@ This is an example of an ordered list:<ol>
   <li>Tea</li>
   <li>Milk</li>
 </ol>
-<br>
-<a href="https://www.w3schools.com/html/html_lists.asp">W3 Schools: Lists</a>
-<br>
-<hr>
-<h2>Tables</h2
-<p>An HTML table is defined with the < table > tag. Each table row is defined with the < tr > tag. A table header is defined with the < th > tag. By default, table headings are bold and centered. A table data/cell is defined with the < td > tag.</p>
-<br>
-<p>This is an example of a table:
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table></p>
-<br>
-<a href="https://www.w3schools.com/html/html_tables.asp">W3 Schools: Tables</a>
+    <h3><a href="https://www.w3schools.com/html/html_lists.asp">W3 Schools: Lists</a></h3>
 <br>
 <hr>
-<h2>Blocks</h2>
-<p>Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline. A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can). The < div>  element is a block-level element.</p>
+    <h2 id="tables">Table Element</h2>
+    <h3>Description</h3>
+    <p>An HTML table is defined with the < table > tag. Each table row is defined with the < tr > tag. A table header is defined with the < th > tag. By default, table headings are bold and centered. A table data/cell is defined with the < td > tag.</p>
+    <h3>Syntax</h3>
+    <p>start tag: &lt;table&gt;&lt;tr&gt;&lt;td&gt; &lt;th&gt;</p>
+    <p>content: table information</p>
+    <p>end tag: &lt;/table&gt;&lt;/tr&gt;&lt;/td&gt; &lt;/th&gt;</p>
+    <h3>Example</h3>
+    <p>&lt;table style="width:100%"&gt;
+  &lt;tr&gt;</p>
+    <p>&lt;th&gt;Name&lt;/th&gt;</p>
+    <p>&lt;th colspan="2"&gt;Telephone&lt;/th&gt;</p>
+  <p>&lt;/tr&gt;</p>
+  <p>&lt;tr&gt;</p>
+    <p>&lt;td&gt;Bill Gates&lt;/td&gt;</p>
+ <p> &lt;td&gt;55577854&lt;/td&gt;</p>
+   <p> &lt;td&gt;55577855&lt;/td&gt;</p>
+  <p>&lt;/tr&gt;</p>
+<p>&lt;/table&gt;&lt;/p&gt;</p>
+    <h3>Display</h3>
+        <table style="width:100%">
+       <tr>
+          <th>Firstname</th>
+         <th>Lastname</th> 
+         <th>Age</th>
+         </tr>
+       <tr>
+          <td>Jill</td>
+          <td>Smith</td> 
+          <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td> 
+        <td>94</td>
+     </tr>
+      </table></p>
+    <h3><a href="https://www.w3schools.com/html/html_tables.asp">W3 Schools: Tables</a></h3>
 <br>
-<p>Example of a block:
-< div>Hello</div >
-< div>World</div > </p>
-</html>
-<br>
-<a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools: Blocks</a>
+<hr>
+ <h2 id="blocks">Blocks</h2>
+ <h3>Description</h3>
+    <p>Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline. A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can). The < div>  element is a block-level element.</p>
+    
+    <h3>Syntax</h3>
+    <p>start tag: &lt;br&gt;</p>
+    <p>content: none</p>
+    <p>end tag: none</p>
+    <h3>Example</h3>
+    <p>&lt;div&gt;Hello&lt;/div&gt; </p>
+    <p>&lt;div&gt;World&lt;/div&gt; </p>
+    <p>&lt;/html&gt;</p>
+    <h3>Display</h3>
+    <p>&lt;br&gt;</p>
+    <h3><a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools: Blocks</a></h3>
