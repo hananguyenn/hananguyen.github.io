@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<a href="/index.html">Back to ECS HTML Homepage</a>
 <html>
-<head>
-<title>HTML Reference Page</title>
-</head>
-<body>
-
-<h1>HTML Reference Page</h1>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
+  <head>
+  <title>HTML Reference Page</title>
+  <style>
 th {
     text-align: left;
 }
 </style>
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+
 </head>
 <body>
+  <a href="/index.html">Back to ECS HTML Homepage</a>
+  <h1 class="mystyle">HTML Reference Page</h1>
 
-<table style="width:100%">
+
+<table style="width:100%"  id="table">
   <tr>
     <th>Name</th>
     <th>Start Tag</th> 
@@ -60,7 +57,7 @@ th {
    <td><a href="#parag">Paragraph</a></td>
     <td>&lt;p&gt;</td>
     <td>&lt;/p&gt;</td>
-    <td>&lt;p&gt; <i>This is an example of a paragraph</i>&lt;/p&gt;</td></td>
+    <td>&lt;p&gt; <i>This is an example of a paragraph</i>&lt;/p&gt;</td>
   </tr>
    <tr>
     <td><a href="#breaks">Breaks</a></td>
@@ -109,15 +106,12 @@ th {
         <td>&lt;div&gt; <i>block elements</i> &lt;/div&gt;</td>
   </tr>
 </table>
- 
-</body>
-</html>
 
 <br>
 <hr>
     <h2 id="html">HTML Element</h2>
     <h3>Description</h3>
-    <p>A valid HTML page must begin with a document declaration < !DOCTYPE html > at the beginning of the page to start coding.An HTML element usually consists of a start tag and end tag, with the content inserted in between:</p>
+    <p>A valid HTML page must begin with a document declaration &lt;!DOCTYPE html&gt; at the beginning of the page to start coding.An HTML element usually consists of a start tag and end tag, with the content inserted in between:</p>
     <h3>Syntax</h3>
     <p>start tag: &lt;tagname&gt;</p>
     <p>content: elements releated to the body</p>
@@ -131,7 +125,7 @@ th {
 <hr>
     <h2 id="head">Head Element</h2>
      <h3>Description</h3>
-    <p>The tag < head > is a container for all the head elements (title, scripts, styles, meta information, and more)</p>
+    <p>The tag &lt;head&gt; is a container for all the head elements (title, scripts, styles, meta information, and more)</p>
     <h3>Syntax</h3>
     <p>start tag: &lt;head&gt;</p>
     <p>content: The Header</p>
@@ -139,7 +133,7 @@ th {
     <h3>Example</h3>
     <p>&lt;head&gt;<i>Header</i>&lt;/head&gt;</p>
     <h3>Display</h3>
-    <head>This is the header</head>
+    <p>The header is all of the titles, scripts, styles, and meta information.</p>
     <h3><a href="https://www.w3schools.com/tags/tag_head.asp">W3 Schools: Headers</a></h3>
 <br>
 <hr>
@@ -167,7 +161,7 @@ th {
     <h3>Example</h3>
     <p>&lt;body&gt;<i>Insert Body</i>&lt;/body&gt;</p>
     <h3>Display</h3>
-    <body>This is the body</body>
+    <p>This is the body</p>
     <h3><a href="https://www.w3schools.com/tags/tag_body.asp">W3 Schools: Body</a></h3>
 <br>
 <hr>
@@ -298,7 +292,7 @@ This is an example of an ordered list:<ol>
 <hr>
     <h2 id="tables">Table Element</h2>
     <h3>Description</h3>
-    <p>An HTML table is defined with the < table > tag. Each table row is defined with the < tr > tag. A table header is defined with the < th > tag. By default, table headings are bold and centered. A table data/cell is defined with the < td > tag.</p>
+    <p>An HTML table is defined with the &lt; table&gt; tag. Each table row is defined with the &lt;tr&gt; tag. A table header is defined with the &lt;th&gt; tag. By default, table headings are bold and centered. A table data/cell is defined with the &lt;td&gt; tag.</p>
     <h3>Syntax</h3>
     <p>start tag: &lt;table&gt;&lt;tr&gt;&lt;td&gt; &lt;th&gt;</p>
     <p>content: table information</p>
@@ -317,6 +311,7 @@ This is an example of an ordered list:<ol>
 <p>&lt;/table&gt;&lt;/p&gt;</p>
     <h3>Display</h3>
         <table style="width:100%">
+      
        <tr>
           <th>Firstname</th>
          <th>Lastname</th> 
@@ -351,3 +346,5 @@ This is an example of an ordered list:<ol>
     <h3>Display</h3>
     <p>&lt;br&gt;</p>
     <h3><a href="https://www.w3schools.com/html/html_blocks.asp">W3 Schools: Blocks</a></h3>
+</body>
+</html>
