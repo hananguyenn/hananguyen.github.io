@@ -1,0 +1,44 @@
+body{
+  background-color: rgba(51, 190, 255,0.5);
+}
+.mystyle {
+  color: black;
+    font-family: "Impact", charcoal, Sans-Serif;
+    font-size: 40px;
+}
+    #table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    #table td, #table th {
+      border: 1px solid #0051FF;
+     padding: 8px;
+    }
+    td{
+      background-color: #D5F2FF;
+    }
+    #table tr:hover {background-color: #ddd;}
+
+    #table th {
+     padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+     background-color: dodgerblue;
+      color: white;
+    }
+h2{
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: #0051FF;
+  font-family: 'Anton', sans-serif;
+}
+h3{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+}
+p{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+}
