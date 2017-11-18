@@ -1,0 +1,57 @@
+
+/* Style the header */
+.header {
+     background: url(https://s-media-cache-ak0.pinimg.com/originals/f5/58/90/f558903f2f84683715ade94dadc5e0f0.jpg);
+    font-family: 'Luckiest Guy', cursive;
+    color: white;
+}
+#cheeto {
+  font-size: 100px;
+}
+#description {
+  font-size: 13px;
+  color: black;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    font-family: 'Francois One', sans-serif;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: red;
+    color: black;
+}
+
+/* indicate active page on nav */
+#activepage {
+    background-color: #E67E22  ;
+}
+body {
+  background-color: orange;
+  font-family: 'Francois One', sans-serif;
+}
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 30px;
+}
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+
+}
+#chester {
+    float: right;
+    overflow: auto;
+}
